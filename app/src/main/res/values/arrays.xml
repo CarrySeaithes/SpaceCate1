@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="titles">
+        <item>全部</item>
+        <item>审核中</item>
+        <item>进行中</item>
+        <item>已完成</item>
+    </string-array>
+
+    <string-array name="titles2">
+        <item>全部</item>
+        <item>进行中</item>
+        <item>已完成</item>
+    </string-array>
+
+</resources>
