@@ -8,13 +8,13 @@ import android.widget.TextView;
 public class SeachActivity extends Activity {
 
     TextView textView;
-    private String[] mString=new String[]{"aaa","bbb","ccc"};
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-       /*textView=findViewById(R.id.main_searchtv);
+       textView=findViewById(R.id.main_searchtv);
 
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -23,6 +23,6 @@ public class SeachActivity extends Activity {
                 //返回
                 finish();
             }
-        });*/
+        });
     }
 }
